@@ -1,11 +1,12 @@
 {
-  "name": "devconnector",
+  "name": "devspace",
   "version": "1.0.0",
   "description": "Social network for developers",
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "dev": "npm run server"
   },
   "author": "Jordan Duran",
   "license": "MIT",
