@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const users = require('../../user-data/users');
 
 // @route  GET api/posts
 // @desc   Test route
